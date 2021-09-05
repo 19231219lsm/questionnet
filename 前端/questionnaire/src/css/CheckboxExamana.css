@@ -1,0 +1,71 @@
+
+.firstline {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.must, .number, .title {
+    font-size: 18px;
+    margin-right: 5px;
+}
+.must {
+    color: red;
+}
+.choices {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	width: 850px;
+    margin-left: 50px;
+    margin-top: 20px;
+	border-collapse:collapse;
+}
+
+.choices tr,td,th {
+    border: 1px solid #000;
+    text-align: center;
+}
+
+.choicestitle {
+    height: 50px;
+}
+.choices th,td {
+    height: 35px;
+}
+
+.line {
+    margin: 30px auto;
+    border-top: 3px solid #F0F0F0;
+    height: 2px;
+    width: 900px;
+}
+.quetype {
+    font-size: 18px;
+    margin-right: 5px;
+    color: #c0d0c0;
+}
+
+.quepoint {
+    font-size: 18px;
+    margin-right: 5px;
+    
+}
+.Pie {
+    margin-top: 50px;
+    margin-left: 275px;
+}
+.Correct {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: left;
+}
+.correctans {
+    margin-left: 50px;
+}
+.correctnum {
+    margin-left: 200px;
+}
+.correctratio {
+    margin-left: 200px;
+}
+

@@ -1,0 +1,86 @@
+#nav {
+    height: 100px;
+    border-bottom: 1px solid rgb(229,229,229);
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#realNav {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+}
+
+h1 {
+    line-height: 100px;
+    margin-right: 50px;
+}
+
+#nav span{
+    line-height: 100px;
+    font-size: 20px;
+}
+
+#nav .el-button {
+    margin-top: 30px;
+    margin-right: 50px;
+}
+
+#realNav span{
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+#Preview {
+    background-color: rgb(240,240,240);
+    padding: 100px;
+}
+
+#mainPart {
+    background-color: #fff;   
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 10px 10px 5px #888888;
+    margin-top: 100px;
+}
+
+#surveyTitle {
+    font-size: 24px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#surveyIntro {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 70%;
+    height: 100%;
+    word-wrap: break-word;
+}
+
+.surveyContent {
+    border-top: 1px solid rgb(229,229,229);
+}
+
+#btn {
+    text-align: right;
+    padding: 20px;
+    padding-right: 200px;
+}
+
+.el-button {
+    background-color: rgb(71,157,230);
+    color: white;
+}

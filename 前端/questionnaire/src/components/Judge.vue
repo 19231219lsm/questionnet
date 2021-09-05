@@ -1,0 +1,208 @@
+<template>
+    <div id="Judge">
+        <div id="editStatus" v-if="status == 1">
+            <div id="space">
+                <div>题目：<input type="text" v-model="this.title"></div>
+                <div>备注：<input type="text" v-model="this.description"></div>
+                <div id="opt"><input id="must" type="checkbox" v-model="this.must"><span>必填</span></div>
+                <div id="examAnswer" v-if="this.examStatus" style="margin-top: 20px">
+                    答案:
+                    <el-select clearable="true" v-model="this.correctAnswer" style="width: 200px; margin: 0 8px" placeholder="1表示正确，0表示错误">
+                        <el-option
+                        v-for="item in 2"
+                        :key="item.index"
+                        :value="add(item)">
+                        </el-option>
+                    </el-select>
+                    分值:
+                    <el-input-number v-model="this.point" :min="0" :max="100" style="width: 200px;margin: 0 8px"></el-input-number>
+                </div>
+                <div id="process">
+                    <el-button id="confirm" @click="confirm">确定</el-button>
+                    <el-button id="cancel" @click="cancel">删除</el-button>
+                </div>
+            </div>
+        </div>
+        <div id="showStatus" v-else>
+            <!-- 此部分的对象应该是 -->
+            <div>
+                <span id="sequence" v-if="this.needOrder==1">{{this.number}}.</span>
+                <span>{{theTitle}}</span><span style="color: red" v-if="theMust">*</span>
+                <span v-if="this.examStatus&&this.point">&nbsp;&nbsp;&nbsp;({{this.point}}分)</span>
+            </div>
+            <div>{{theDescription}}</div>
+            <div><input type="radio" @click="write" :class="this.number+''" :name="this.number+''" :disabled="this.readOnly">&nbsp;&nbsp;&nbsp;正确</div>
+            <div><input type="radio" @click="write" :class="this.number+''" :name="this.number+''" :disabled="this.readOnly">&nbsp;&nbsp;&nbsp;错误</div>
+        </div>
+    </div>
+</template>
+
+<script>
+export default {
+    props: {
+        needOrder: '',
+        number: '',
+        status: '',
+        theTitle: '',
+        theDescription: '',
+        theMust: '',
+        readOnly: Boolean,
+        examStatus: '',
+        thePoint: '',
+        theCorrectAnswer: ''
+    },
+    data(){
+        return {
+             title: this.theTitle,
+            description: this.theDescription,
+            must: this.theMust,
+            point: this.thePoint,
+            correctAnswer: this.theCorrectAnswer,
+        }
+    },
+    watch:{
+        theTitle(newVal, oldVal){
+            this.title=newVal;
+        },
+        theDescription(newVal, oldVal){
+            this.description = newVal;
+        },
+        theMust(newVal, oldVal){
+            this.must = newVal
+        },
+    },
+    methods:{
+        add(i){
+            return i-1
+        },
+        write(){
+            var radios = document.getElementsByClassName(this.number);
+            console.log(radios)
+            for(var i = 0; i < radios.length; i ++){
+                if(radios[i].checked==true){
+                    i++;
+                    this.$emit('getResult', i, this.number)
+                    return;
+                }
+            }
+        },
+        cancel(){
+            this.$emit('result', this.number, 0);
+            if(this.examStatus){
+                this.$emit('examResult', this.number, 0)
+            }
+        },
+        confirm(){
+            if(this.title.length == 0
+            ){
+                this.$message({
+                message: "请填写完整问题信息",
+                type: "warning"
+                });
+                return;
+            }
+            var obj = {
+                type: 5,
+                status: 0,
+                number: this.number,
+                title: this.title,
+                description: this.description == undefined? '' : this.description,
+                //description: this.description,
+                must: this.must
+            }
+            this.$emit('result', obj, 1)
+            if(this.examStatus){
+                var obj2 = {
+                    type: 5,
+                    status: 0,
+                    number: this.number,
+                    title: this.title,
+                    description: this.description == undefined? '' : this.description,
+                    //description: this.description,
+                    must: this.must,
+                    choices: this.choices, 
+                    point: this.point,
+                    correctAnswer: this.correctAnswer
+                }
+                this.$emit('examResult', obj2, 1)
+            }
+        }
+    }
+}
+</script>
+
+<style scoped>
+
+#editStatus {
+    background-color: rgb(250,250,250);
+    border: 1px solid rgb(229,229,229);
+    width: 100%;
+}
+
+#space {
+    margin: 20px 150px;
+    width: 60%;
+    padding-left: 55px;
+}
+
+#space div{
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+#space input {
+    height: 24px;
+    width: 550px;
+    font-size: 16px;
+    padding: 2px;
+    outline: none;
+}
+
+#opt {
+    display: flex;
+    align-items: flex-end;
+}
+
+#editStatus #must {
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    padding: 0px;
+    font-style: 20px;
+}
+
+#process {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#process .el-button{
+    margin-right: 20px;
+}
+
+#confirm {
+    background-color: rgb(71,157,230);
+    color: #fff;
+}
+
+#showStatus {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 20px 150px;
+    width: 60%;
+    padding-left: 55px;
+}
+
+#showStatus div{
+    margin-bottom: 15px;
+}
+
+#sequence {
+    margin-right: 5px;
+}
+
+
+</style>
+

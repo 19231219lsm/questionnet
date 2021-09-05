@@ -1,0 +1,61 @@
+
+.firstline {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.must, .number, .title1 {
+    font-size: 20px;
+    margin-right: 5px;
+}
+.must {
+    color: red;
+}
+
+
+.line {
+    margin: 30px auto;
+    border-top: 3px solid #F0F0F0;
+    height: 2px;
+    width: 900px;
+}
+.quetype {
+    font-size: 20px;
+    margin-right: 5px;
+    color: #c0d0c0;
+}
+
+.quespoint {
+    font-size: 18px;
+    margin-right: 5px;
+    
+}
+.quesContent {
+    margin-top: 15px;
+    font-size: 18px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.correctAns {
+    margin-left: 50px;
+    font-size: 20px;
+    margin-top: 20px;
+   
+}
+
+.yourAns {
+    margin-left: 50px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.isCorrect {
+    margin-top: 20px;
+    margin-right: 70px;
+}
+
+.notCorrect {
+    margin-top: 20px; 
+}

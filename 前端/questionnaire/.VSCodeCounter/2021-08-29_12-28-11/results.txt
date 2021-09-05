@@ -1,0 +1,118 @@
+Date : 2021-08-29 12:28:11
+Directory : c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire
+Total : 74 files,  38775 codes, 567 comments, 704 blanks, all 40046 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JSON       |          2 |     28,709 |          0 |          2 |     28,711 |
+| Vue        |         41 |      8,626 |        499 |        457 |      9,582 |
+| CSS        |         18 |      1,172 |         19 |        212 |      1,403 |
+| JavaScript |          8 |        211 |         40 |         15 |        266 |
+| HTML       |          2 |         32 |          3 |          8 |         43 |
+| Markdown   |          1 |         19 |          0 |          6 |         25 |
+| SCSS       |          1 |          3 |          6 |          3 |         12 |
+| XML        |          1 |          3 |          0 |          1 |          4 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++--------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                           | files      | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                              |         74 |     38,775 |        567 |        704 |     40,046 |
+| public                                                                                                                         |          2 |         19 |          3 |          5 |         27 |
+| public\img                                                                                                                     |          1 |          3 |          0 |          1 |          4 |
+| public\img\icons                                                                                                               |          1 |          3 |          0 |          1 |          4 |
+| src                                                                                                                            |         67 |     10,012 |        563 |        690 |     11,265 |
+| src\components                                                                                                                 |         20 |      2,802 |        122 |        215 |      3,139 |
+| src\css                                                                                                                        |         17 |      1,159 |         19 |        210 |      1,388 |
+| src\network                                                                                                                    |          1 |          9 |          4 |          1 |         14 |
+| src\plugins                                                                                                                    |          1 |          7 |          0 |          2 |          9 |
+| src\router                                                                                                                     |          1 |        115 |          6 |          4 |        125 |
+| src\store                                                                                                                      |          1 |         21 |         28 |          2 |         51 |
+| src\views                                                                                                                      |         22 |      5,824 |        377 |        245 |      6,446 |
+| src\views\@                                                                                                                    |          1 |         13 |          0 |          2 |         15 |
+| src\views\@\css                                                                                                                |          1 |         13 |          0 |          2 |         15 |
++--------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++--------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                                                       | language   | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\README.md                              | Markdown   |         19 |          0 |          6 |         25 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\babel.config.js                        | JavaScript |          3 |          0 |          1 |          4 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\package-lock.json                      | JSON       |     28,649 |          0 |          1 |     28,650 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\package.json                           | JSON       |         60 |          0 |          1 |         61 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\public\img\icons\safari-pinned-tab.svg | XML        |          3 |          0 |          1 |          4 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\public\index.html                      | HTML       |         16 |          3 |          4 |         23 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\App.vue                            | Vue        |         29 |          0 |          3 |         32 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\components\Checkbox.vue            | Vue        |        284 |          3 |         23 |        310 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\components\CheckboxExamana.vue     | Vue        |        124 |          9 |          7 |        140 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\components\CheckboxToEnd.vue       | Vue        |         59 |          7 |          2 |         68 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\components\Checkboxana.vue         | Vue        |        107 |          9 |          6 |        122 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\components\Evaluation.vue          | Vue        |        233 |          2 |         20 |        255 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\components\EvaluationExamana.vue   | Vue        |        123 |          9 |          7 |        139 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\components\EvaluationToEnd.vue     | Vue        |         48 |          7 |          4 |         59 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\components\Evaluationana.vue       | Vue        |        107 |         10 |          6 |        123 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\components\Judge.vue               | Vue        |        189 |          2 |         18 |        209 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\components\JudgeExamana.vue        | Vue        |        128 |          9 |          7 |        144 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\components\JudgeToEnd.vue          | Vue        |         53 |          6 |          3 |         62 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\components\Judgeana.vue            | Vue        |        118 |          9 |          7 |        134 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\components\Limitation.vue          | Vue        |        254 |          2 |         22 |        278 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\components\Location.vue            | Vue        |        178 |          2 |         19 |        199 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\components\Radio.vue               | Vue        |        279 |          3 |         25 |        307 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\components\RadioExamana.vue        | Vue        |        123 |          9 |          7 |        139 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\components\RadioToEnd.vue          | Vue        |         53 |          6 |          3 |         62 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\components\Radioana.vue            | Vue        |        109 |          9 |          7 |        125 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\components\Text.vue                | Vue        |        178 |          2 |         20 |        200 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\components\TextToEnd.vue           | Vue        |         55 |          7 |          2 |         64 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\css\Analysis.css                   | CSS        |         51 |          2 |          9 |         62 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\css\AnalysisForUser.css            | CSS        |         74 |          8 |         18 |        100 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\css\CheckboxExamana.css            | CSS        |         63 |          0 |          9 |         72 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\css\Checkboxana.css                | CSS        |         44 |          0 |          6 |         50 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\css\Edit.css                       | CSS        |        174 |          0 |         37 |        211 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\css\Epidemic.css                   | CSS        |        172 |          2 |         35 |        209 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\css\Evaluationana.css              | CSS        |         44 |          0 |          6 |         50 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\css\Home.css                       | CSS        |         75 |          3 |          5 |         83 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\css\Judgeana.css                   | CSS        |         44 |          0 |          6 |         50 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\css\Login.css                      | CSS        |         56 |          1 |         11 |         68 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\css\Preview.css                    | CSS        |         73 |          0 |         13 |         86 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\css\Radio.css                      | CSS        |         44 |          0 |          6 |         50 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\css\RadioToEnd.css                 | CSS        |         50 |          0 |         11 |         61 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\css\Register.css                   | CSS        |         63 |          1 |         12 |         76 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\css\Survey.css                     | CSS        |         44 |          0 |          7 |         51 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\css\TextToEnd.css                  | CSS        |         50 |          0 |         11 |         61 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\css\toend3.css                     | CSS        |         38 |          2 |          8 |         48 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\element-variables.scss             | SCSS       |          3 |          6 |          3 |         12 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\main.js                            | JavaScript |         12 |          0 |          2 |         14 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\network\request.js                 | JavaScript |          9 |          4 |          1 |         14 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\plugins\element.js                 | JavaScript |          7 |          0 |          2 |          9 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\registerServiceWorker.js           | JavaScript |         31 |          1 |          3 |         35 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\router\index.js                    | JavaScript |        115 |          6 |          4 |        125 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\store\index.js                     | JavaScript |         21 |         28 |          2 |         51 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\views\@\css\Login.css              | CSS        |         13 |          0 |          2 |         15 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\views\About.vue                    | Vue        |        114 |         20 |          5 |        139 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\views\Analysis.vue                 | Vue        |        202 |         47 |         10 |        259 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\views\AnalysisForUser.vue          | Vue        |        111 |          1 |         17 |        129 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\views\Apply.vue                    | Vue        |        628 |          4 |         20 |        652 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\views\Edit.vue                     | Vue        |        573 |         85 |         18 |        676 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\views\End.vue                      | Vue        |         18 |          0 |          6 |         24 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\views\Epidemic.vue                 | Vue        |        618 |          3 |         23 |        644 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\views\Error.vue                    | Vue        |         18 |          0 |          6 |         24 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\views\Exam.vue                     | Vue        |        616 |          4 |         20 |        640 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\views\Home.vue                     | Vue        |         30 |          0 |          5 |         35 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\views\Login.vue                    | Vue        |         77 |          0 |          9 |         86 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\views\Manage.vue                   | Vue        |        818 |         10 |          5 |        833 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\views\Preview.vue                  | Vue        |        256 |         12 |          9 |        277 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\views\Recycle.vue                  | Vue        |        323 |          0 |          3 |        326 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\views\Register.vue                 | Vue        |        108 |          2 |         10 |        120 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\views\Survey.vue                   | Vue        |        343 |         15 |         15 |        373 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\views\Test.vue                     | Vue        |         30 |        108 |         15 |        153 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\views\Vote.vue                     | Vue        |        566 |          4 |         21 |        591 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\views\test.html                    | HTML       |         16 |          0 |          4 |         20 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\views\toend2.vue                   | Vue        |        189 |         48 |          9 |        246 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\src\views\toend3.vue                   | Vue        |        157 |         14 |         13 |        184 |
+| c:\Users\86181\Desktop\小学期\问卷星球\soft-project\software-engineer-project\前端\questionnaire\vue.config.js                          | JavaScript |         13 |          1 |          0 |         14 |
+| Total                                                                                                                          |            |     38,775 |        567 |        704 |     40,046 |
++--------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

@@ -1,0 +1,51 @@
+#Survey {
+    background-color: rgb(220,220,220);
+    padding: 100px;
+}
+
+.time {
+    position: fixed; 
+    right: 50px; 
+    top: 50px; 
+    background-color: white;
+    box-shadow: 10px 10px 5px #888888;
+    border: 2px solid black;
+}
+
+#mainPart {
+    background-color: #fff;   
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+#surveyTitle {
+    font-size: 24px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#surveyIntro {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 70%;
+    height: 100%;
+    word-wrap: break-word;
+}
+
+.surveyContent {
+    border-top: 1px solid rgb(229,229,229);
+}
+
+#btn {
+    text-align: right;
+    padding: 20px;
+    padding-right: 200px;
+}
+
+.el-button {
+    background-color: rgb(71,157,230);
+    color: white;
+}

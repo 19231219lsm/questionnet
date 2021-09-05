@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="time">
+        <span v-bind:title="message">
+            鼠标悬停这里试试看！
+            <app>{{msg}}</app>
+        </span>
+    </div>
+</body>
+
+<script src="https://unpkg.com/vue@next"></script>
+<script>
+    const time = {
+        data(){
+            return{
+                message: 'You load this page on '+ new Date().toLocaleString(),
+            }
+        }
+    }
+
+    const app = {
+        props:{
+            msg: String,
+        }
+    }
+
+    Vue.createApp(time).mount('#time')
+</script>
+
+</html>
